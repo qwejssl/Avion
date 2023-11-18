@@ -146,7 +146,6 @@ a {
     gap:  24px;
 }
 
-
 .main_screen {
     display: flex;
     color: #FFF;
@@ -250,7 +249,6 @@ a {
     cursor: pointer;
 }
 
-
 .join_club-section {
     margin-top: 50px;
     background-color: #F9F9F9;
@@ -315,6 +313,7 @@ a {
 .last_section-undertext {
     margin-top: 25px;
 }
+
 .last-section-btn {
     padding: 16px 32px;
     background-color: #e3e3e3;
@@ -324,4 +323,152 @@ a {
     bottom: 10%;
 }
 
+.title_section {
+    background-color: #464649;
+    position: relative;
+    height: 200px;
+}
 
+.title_section-title {
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 10%;
+    color: #FFF;
+}
+
+.custom_padding{
+    padding: 20px 0;
+}
+
+.main_products-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.checkbox_menu-title {
+    font-size: 20px;
+    margin-top: 48px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.checkbox_nemu-item {
+    margin-top: 12px;
+}
+
+.all_products-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.all_products_menu-item {
+    margin-top: 36px;
+}
+
+.all_product-btn {
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.allProd_btn {
+    background-color: #e3e3e3;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.cart_section {
+    background-color: #F9F9F9;
+    padding: 64px 0 48px;
+}
+
+.cart_section-title {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.name_of_colums {
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0 12px;
+}
+
+.name_of_colums-item {
+    font-size: 14px;
+}
+
+.special_margin{
+    margin-left: 220px;
+}
+
+.cart_product-menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart_product {
+    max-width: 310px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.cart_product-text-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cart_product-undertext {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.cart_product-text-price {
+    margin-top: 8px;
+}
+
+.line_margin{
+    margin: 32px 0 28px;
+}
+
+.final_products_cost-section {
+    text-align: end;
+}
+
+.cost_section {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 16px;
+}
+
+.cost_text {
+    font-size: 20px;
+    color: #4E4D93;
+}
+
+.cost_text-price {
+    font-size: 24px;
+}
+
+.cost_undertext {
+    font-size: 14px;
+    margin-top: 12px;
+}
+.cost_btn {
+    padding: 16px 32px;
+    background-color: #2A254B;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+}
